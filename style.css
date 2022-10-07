@@ -1,0 +1,13 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: rgba(109, 138, 109, 0.372);
+}
+
+.parent-container {
+    color: aqua;
+}
+
+#my-heading {
+    color: blue !important;
+}
