@@ -1,14 +1,66 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
 
-		<title>
-			Basic HTML Demo
-		</title>
+<head>
 
-	</head>
+	<title>
+		Basic HTML Demo
+	</title>
 
-	<body>
-	</body>
+</head>
+
+<body>
+
+	<div id="new-div">
+		<h1>Basic Demo</h1>
+		<h3>A very basic run through of some htmnl elements</h3>
+
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate ad beatae totam qui officia fuga
+			asperiores eius enim voluptate reiciendis.</p>
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate ad beatae totam qui officia fuga
+			asperiores eius enim voluptate reiciendis.</p>
+
+		<span>Some extra text</span>
+		<br>
+		<span>Some more extra text</span>
+
+		<br>
+		<br>
+	</div>
+
+	<form>
+
+		<label for="name">Enter your name-</label>
+
+		<br>
+		<input type="text" name="name" placeholder="name" required>
+
+		<br>
+
+		<label for="email">Enter your email-</label>
+
+		<br>
+		<input type="email" placeholder="email" required>
+
+		<br>
+		<label for="phone">Enter your telephone-</label>
+
+		<br>
+		<input type="tel" placeholder="telephone" required>
+
+		<br>
+		<label for="pwd">Enter a password</label>
+
+		<br>
+		<input type="text" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+		<p> Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters
+		</p>
+		<br>
+		<input type="submit">
+
+	</form>
+
+
+</body>
+
 </html>
-
